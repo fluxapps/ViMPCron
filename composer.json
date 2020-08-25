@@ -1,0 +1,43 @@
+{
+  "name": "srag/plugins/vimpcron",
+  "description": "",
+  "type": "project",
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Theodor Truffer",
+      "email": "tt@studer-raimann.ch",
+      "homepage": "https://studer-raimann.ch",
+      "role": "Project Manager, Software Engineer"
+    }
+  ],
+  "support": {
+    "issues": "https://plugins.studer-raimann.ch/goto.php?target=uihk_srsu_PLVIMP"
+  },
+  "require": {
+    "php": ">=7.0",
+    "srag/librariesnamespacechanger": ">=0.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "srag\\Plugins\\ViMPCron\\": "src/"
+    },
+    "classmap": [
+      "classes/"
+    ],
+    "files": [
+      "../../../Repository/RepositoryObject/ViMP/vendor/autoload.php"
+    ]
+  },
+  "config": {
+    "classmap-authoritative": true,
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "scripts": {
+    "pre-autoload-dump": [
+      "srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger::rewriteLibrariesNamespaces",
+      "srag\\LibrariesNamespaceChanger\\PHP72Backport::PHP72Backport"
+    ]
+  }
+}
