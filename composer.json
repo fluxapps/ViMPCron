@@ -1,18 +1,23 @@
 {
-  "name": "srag/plugins/vimpcron",
-  "description": "",
-  "type": "project",
+  "name": "fluxapps/vimpcron",
+  "description": "ILIAS ViMPCron Plugin",
+  "type": "plugin",
+  "keywords": [
+    "ilias",
+    "vimp",
+    "fluxlabs"
+  ],
   "license": "GPL-3.0+",
   "authors": [
     {
-      "name": "Theodor Truffer",
-      "email": "tt@studer-raimann.ch",
-      "homepage": "https://studer-raimann.ch",
-      "role": "Project Manager, Software Engineer"
+      "name": "fluxlabs ag",
+      "email": "support@fluxlabs.ch",
+      "homepage": "https://fluxlabs.ch",
+      "role": "Developer, Maintainer"
     }
   ],
   "support": {
-    "issues": "https://plugins.studer-raimann.ch/goto.php?target=uihk_srsu_PLVIMP"
+    "issues": "https://git.fluxlabs.ch"
   },
   "require": {
     "php": ">=7.0",
