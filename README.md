@@ -13,6 +13,13 @@ git clone https://github.com/fluxapps/ViMPCron.git ViMPCron
 ```
 Update and activate the plugin in the ILIAS Plugin Administration
 
+## Maintainer
+fluxlabs ag, support@fluxlabs.ch
+
+## Contributor
+fluxfw, fluxlabs
+martin, fluxlabs
+
 ## Contributing :purple_heart:
 Please ...
 1. ... register an account at https://git.fluxlabs.ch
