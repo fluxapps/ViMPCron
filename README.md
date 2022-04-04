@@ -17,7 +17,6 @@ Update and activate the plugin in the ILIAS Plugin Administration
 fluxlabs ag, support@fluxlabs.ch
 
 ## Contributor
-fluxfw, fluxlabs
 martin, fluxlabs
 
 ## Contributing :purple_heart:
